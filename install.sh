@@ -85,3 +85,6 @@ xinput --set-prop "Atmel maXTouch Touchpad" "Synaptics Noise Cancellation" 20 20
 # TODO install dotfiles
 # TODO install Vim plugins
 # TODO install golang
+
+# If required to build tig from source will need ncurses
+sudo apt-get install libncurses-dev
