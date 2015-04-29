@@ -41,7 +41,7 @@ vim +PluginInstall +qall
 # YouCompleteMe
 #
 cd ~/.vim/bundle/YouCompleteMe
-./install.sh --clang-complete --gocde-completer
+./install.sh --clang-completer --gocode-completer
 
 
 # terms
