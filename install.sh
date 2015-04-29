@@ -29,7 +29,7 @@ sudo apt-get install git-core
 # add-apt-repository
 #
 sudo apt-get install software-properties-common python-software-properties
-sudo apt-get python-dev python-pip
+sudo apt-get install python-dev python-pip
 
 
 # vim
