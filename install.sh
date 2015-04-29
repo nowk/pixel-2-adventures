@@ -14,12 +14,6 @@ sudo apt-get update
 sudo apt-get upgrade
 
 
-# fonts, this is large, but fixes some fonting issues I noticed within chrome 
-# browser
-#
-sudo apt-get install ubuntustudio-font-meta
-
-
 # development basics
 #
 sudo apt-get install curl wget
@@ -27,15 +21,18 @@ sudo apt-get install build-essential cmake
 sudo apt-get install git-core
 
 
-# neovim
+# add-apt-repository
 #
 sudo apt-get install software-properties-common python-software-properties
-sudo add-apt-repository ppa:neovim-ppa/unstable
-sudo apt-get update
-sudo apt-get install neovim
-
 sudo apt-get python-dev python-pip
-pip install --user neovim
+
+
+# neovim
+#
+# sudo add-apt-repository ppa:neovim-ppa/unstable
+# sudo apt-get update
+# sudo apt-get install neovim
+# pip install --user neovim
 
 
 # vim
@@ -67,17 +64,6 @@ chsh -s $(which zsh) # you will most likely be prompted for a password
 
 # Change your terminal settings to encode in UTF-8 or you'll get some funky texts
 # and artifacting
-
-
-# fix jittery mouse, kind of works...
-#
-xinput --set-prop "Atmel maXTouch Touchpad" "Device Accel Constant Deceleration" 4
-# http://ubuntuforums.org/showthread.php?t=2152733
-# xinput list-prop <id>
-xinput --set-prop "Atmel maXTouch Touchpad" "Synaptics Noise Cancellation" 20 20
-# https://bugs.launchpad.net/ubuntu/+source/xserver-xorg-input-synaptics/+bug/1042069
-xinput --set-prop "Atmel maXTouch Touchpad" "Device Accel Profile" 2
-xinput --set-prop "Atmel maXTouch Touchpad" "Device Accel Velocity Scaling" 32
 
 
 # FIXME I might have missed some apt-gets, will need to pick those up next time around
