@@ -76,6 +76,14 @@ chsh -s $(which zsh) # you will most likely be prompted for a password
 #
 # TODO setup ssh key
 # TODO install dotfiles
+
+
+# terms
+# CD to prospect dir
+# tic screen-256color-italic.terminfo
+# tic xterm-256color-italic.terminfo
+
+
 # TODO install Vim plugins
 # TODO install golang
 
