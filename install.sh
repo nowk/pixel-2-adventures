@@ -61,5 +61,11 @@ chsh -s $(which zsh) # you will most likely be prompted for a password
 #
 # Change your terminal settings to encode in UTF-8 or you'll get some funky texts
 # and artifacting
+
+
+# iptables
 #
+sudo apt-get install iptables
+
+
 # FIXME I might have missed some apt-gets, will need to pick those up next time around
