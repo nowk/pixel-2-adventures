@@ -4,9 +4,9 @@
 # Install crouton
 #
 # Follow general steps in any walkthrough, then proceed
-
+#
 # Go Straight to Trusty
-# https://github.com/dnschneid/crouton/wiki/Upgrade-chroot-release
+# Read Readme.md
 
 
 # WARNING do not mess with python, unless you know what you are doing. Many, many
