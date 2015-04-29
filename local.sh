@@ -21,14 +21,9 @@ tic xterm-256color-italic.terminfo
 # Go
 #
 mkdir ~/opt
-cd ~/opt
-git clone git@github.com:golang/go.git
-
-cd go
-git checkout go1.4.2
-
-cd src
-./all.bash
+cd ~/opt && git clone git@github.com:golang/go.git
+cd go    && git checkout go1.4.2
+cd src   && ./all.bash
 
 
 # If required to build tig from source will need ncurses
