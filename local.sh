@@ -6,7 +6,10 @@ cd ~/
 
 # dotfiles
 #
-git clone git@github.com:nowk/prospect.git && ln -s ~/prospect ~/.prospect
+git clone git@github.com:nowk/prospect.git && cd prospect
+git checkout pixel-2
+ln -s ~/prospect ~/.prospect
+
 
 # rcs
 #
