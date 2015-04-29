@@ -12,6 +12,7 @@
 # WARNING do not mess with python, unless you know what you are doing. Many, many
 # things will come to depend on it and breaking any linkage will cause agita.
 
+
 # apt-get
 #
 sudo apt-get update
@@ -29,14 +30,6 @@ sudo apt-get install git-core
 #
 sudo apt-get install software-properties-common python-software-properties
 sudo apt-get python-dev python-pip
-
-
-# neovim
-#
-# sudo add-apt-repository ppa:neovim-ppa/unstable
-# sudo apt-get update
-# sudo apt-get install neovim
-# pip install --user neovim
 
 
 # vim
@@ -65,27 +58,8 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 chsh -s $(which zsh) # you will most likely be prompted for a password
 
 # must logout/login to see zsh change
-
+#
 # Change your terminal settings to encode in UTF-8 or you'll get some funky texts
 # and artifacting
-
-
-# FIXME I might have missed some apt-gets, will need to pick those up next time around
-
-# after this it's all you
 #
-# TODO setup ssh key
-# TODO install dotfiles
-
-
-# terms
-# CD to prospect dir
-# tic screen-256color-italic.terminfo
-# tic xterm-256color-italic.terminfo
-
-
-# TODO install Vim plugins
-# TODO install golang
-
-# If required to build tig from source will need ncurses
-sudo apt-get install libncurses-dev
+# FIXME I might have missed some apt-gets, will need to pick those up next time around
