@@ -72,5 +72,10 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org=3.0.2 mongodb-org-server=3.0.2 mongodb-org-shell=3.0.2 mongodb-org-mongos=3.0.2 mongodb-org-tools=3.0.2
 
 
-# If required to build tig from source will need ncurses
+# tig from source
+#
 sudo apt-get install libncurses-dev
+cd ~/opt
+git clone git://github.com/jonas/tig.git && cd tig
+make prefix=/usr/local
+sudo make install prefix=/usr/local
