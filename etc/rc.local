@@ -2,4 +2,7 @@
 /sbin/iptables -A INPUT -p tcp --dport 3000 -j ACCEPT
 /sbin/iptables -A INPUT -p tcp --dport 7331 -j ACCEPT
 
+# noodl
+/sbin/iptables -A INPUT -p tcp --dport 8574 -j ACCEPT
+
 # exit 0
