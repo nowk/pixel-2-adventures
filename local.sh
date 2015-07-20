@@ -8,26 +8,27 @@ cd ~/
 #
 git clone git@github.com:nowk/prospect.git && cd prospect
 git checkout pixel-2
+cd
 ln -s ~/prospect ~/.prospect
 
 
 # rcs
 #
 # git
-ln -s ~/.prospect/git.config /.gitconfig
-ln -s ~/.prospect/git.ignore /.gitignore_global
+ln -s ~/.prospect/git.config ~/.gitconfig
+ln -s ~/.prospect/git.ignore ~/.gitignore_global
 
 # tmux
-ln -s ~/.prospect/tmux /.tmux.conf
+ln -s ~/.prospect/tmux ~/.tmux.conf
 
 # vim
-ln -s ~/.prospect/vim /.vim
-ln -s ~/.prospect/vimrc /.vimrc
+ln -s ~/.prospect/vim ~/.vim
+ln -s ~/.prospect/vimrc ~/.vimrc
 
 # zsh
 cp ~/.zshrc ~/.zshrc.before-ln-s
-ln -s ~/.prospect/zshrc /.zshrc
-ln -s ~/.prospect/zshrc.local /.zshrc.local
+ln -s ~/.prospect/zshrc ~/.zshrc
+ln -s ~/.prospect/zshrc.local ~/.zshrc.local
 
 # zsh theme
 ln -s ~/.prospect/oh-my-zsh/themes/normalt.zsh-theme ~/.oh-my-zsh/themes/normalt.zsh-theme
