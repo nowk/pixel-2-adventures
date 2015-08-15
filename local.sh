@@ -36,6 +36,7 @@ ln -s ~/.prospect/oh-my-zsh/themes/normalt.zsh-theme ~/.oh-my-zsh/themes/normalt
 
 # Vundle
 #
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
 
