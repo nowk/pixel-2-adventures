@@ -81,6 +81,6 @@ sudo apt-get install -y mongodb-org=3.0.2 mongodb-org-server=3.0.2 mongodb-org-s
 #
 sudo apt-get install libncurses-dev
 cd ~/opt
-git clone git://github.com/jonas/tig.git && cd tig
+git clone https://github.com/jonas/tig.git && cd tig
 make prefix=/usr/local
 sudo make install prefix=/usr/local
