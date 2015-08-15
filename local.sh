@@ -48,7 +48,7 @@ cd ~/.vim/bundle/YouCompleteMe
 
 # terms
 #
-cd ~/.prospect/terms
+cd ~/.prospect/terminfo
 tic screen-256color-italic.terminfo
 tic xterm-256color-italic.terminfo
 
