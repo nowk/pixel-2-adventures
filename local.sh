@@ -6,7 +6,7 @@ cd ~/
 
 # dotfiles
 #
-git clone git@github.com:nowk/prospect.git && cd prospect
+git clone https://github.com/nowk/prospect.git && cd prospect
 git checkout pixel-2
 cd
 ln -s ~/prospect ~/.prospect
@@ -56,7 +56,7 @@ tic xterm-256color-italic.terminfo
 # Go
 #
 mkdir ~/opt
-cd ~/opt && git clone git@github.com:golang/go.git
+cd ~/opt && git clone https://github.com/golang/go.git
 cd go && git checkout go1.4.2
 cd src && ./all.bash
 
