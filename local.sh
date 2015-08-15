@@ -26,7 +26,7 @@ ln -s ~/.prospect/vim ~/.vim
 ln -s ~/.prospect/vimrc ~/.vimrc
 
 # zsh
-cp ~/.zshrc ~/.zshrc.before-ln-s
+mv ~/.zshrc ~/.zshrc.before-ln-s
 ln -s ~/.prospect/zshrc ~/.zshrc
 ln -s ~/.prospect/zshrc.local ~/.zshrc.local
 
